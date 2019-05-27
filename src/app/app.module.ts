@@ -23,7 +23,8 @@ import { EmployeeListComponent } from './employees/employee-list/employee-list.c
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    ReactiveFormsModule
   ],
   providers: [EmployeeService],
   bootstrap: [AppComponent],
